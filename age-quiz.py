@@ -4,7 +4,7 @@
 #Check to ensure the input in numeric. if not then print invalid inout
 #also print invalid input for negative values
 
-age = (input("What is your age?"))
+age = (input("What is your age? Inout need to be in years not months"))
 numeric = age.isnumeric()
 
 #numeric input check
