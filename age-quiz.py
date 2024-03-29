@@ -10,7 +10,9 @@ numeric = age.isnumeric()
 #numeric input check
 if numeric == True:
     age_int  = int(age)
-    if age_int > 100:
+    if age_int == 100:
+        print("congrats on your letter from the king")
+    elif age_int > 100:
         print("Sorry you are dead.")
     elif age_int >= 65:
         print("Enjoy your retirment!")
